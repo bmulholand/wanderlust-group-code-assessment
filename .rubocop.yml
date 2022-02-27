@@ -1,0 +1,15 @@
+# Disables "Missing top-level class documentation comment" warning
+Documentation:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/BlockComments:
+  Enabled: false
+Metrics/BlockLength:
+  IgnoredMethods: ['describe', 'context']
+Metrics/ParameterLists:
+  Enabled: false
+
+AllCops:
+  Exclude:
+    - 'Gemfile'
